@@ -60,12 +60,6 @@
         xhr.open('GET', apiUrl, true); 
         xhr.send();
     }
-    
-    function searchKeyword() {
-        let videoIds = [2];
-        displayVideos(videoIds);
-    }
-
         
 
     let videoIds = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]; // 여기에 비디오 id 작성해주시면 됩니다!
